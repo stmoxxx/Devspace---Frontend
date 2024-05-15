@@ -1,0 +1,49 @@
+.post_container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgba(147, 132, 218, 0.4);
+    max-width: 744px;
+    border-radius: 20px;
+    padding: 20px 28px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.post_time{
+    color: rgba(170, 170, 170, 1);
+    font-size: 13px;
+    font-family: "Arimo";
+}
+
+.post_author{
+    color: white;
+    font-size: 15px;
+    font-family: "Arimo";
+}
+
+.post_data_info_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.post_data_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.content_container{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.post_text{
+    max-width: 590px;
+    font-family: "Tahoma";
+    font-size: 15px;
+    color: white;
+}
