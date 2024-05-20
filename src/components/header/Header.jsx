@@ -3,6 +3,8 @@ import myHeader from './headerStyle.module.css'
 import HeaderLeft from "./HeaderLeft";
 import HeaderRight from "./HeaderRight";
 import SearchBar from "./SearchBar";
+import Background from "../../../src/images/Background_main2.png";
+import myStyle from "../../../src/styles/globalStyle.module.css";
 
 
 
@@ -12,6 +14,7 @@ const Header = () => {
             <HeaderLeft/>
             <SearchBar/>
             <HeaderRight/>
+            <img src={Background} className={myStyle.background_img} alt={''}/>
         </div>
     );
 };

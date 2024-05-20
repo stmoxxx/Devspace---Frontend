@@ -1,0 +1,15 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.background_img{
+    position: fixed;
+    width: 101vw;
+    height: 101vh;
+    object-fit: cover;
+    border: none;
+    z-index: -1;
+}
